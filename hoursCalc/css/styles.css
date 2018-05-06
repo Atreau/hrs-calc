@@ -2,6 +2,20 @@ h1 {
 	text-align: center;
 }
 
+#listCon{
+	
+}
+#timeIn{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 2em;
+}
+
+#timeOut{
+	list-style-type: none;
+	display: inline-block;
+}
+
 li {
 	font-weight: bold;
 }
@@ -35,4 +49,16 @@ li {
     content: "";
     display: table;
     clear: both;
+}
+
+/*****************************************/
+/* Style the close button */
+.close {
+    position: absolute;
+}
+
+.close:hover {
+	cursor: pointer;
+    background-color: #f44336;
+    color: white;
 }
